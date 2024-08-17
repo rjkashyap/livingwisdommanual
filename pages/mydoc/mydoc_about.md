@@ -9,7 +9,9 @@ permalink: mydoc_about.html
 folder: mydoc
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/pdf/mydoc.pdf" width="1000" height="1000" type="application/pdf"></object>
+<object data="{{ site.url }}{{ site.baseurl }}/mydoc.pdf" width="1000" height="1000" type="application/pdf"></object>
+
+<iframe src="https://drive.google.com/file/d/1JlfwQ7WkLVcX-YjwBRfOpa9LWUAsto3e/preview" width="640" height="480" allow="autoplay"></iframe>
 
 My name is Tom Johnson, and I'm a technical writer, blogger, and podcaster based in San Jose, California. For more details, see my [technical writing blog](http://idratherbewriting.com) and my [course on API documentation](http://idratherbewriting.com/learnapidoc/).  See [my blog's about page](http://idratherbewriting.com/aboutme/) for more details about me.
 
