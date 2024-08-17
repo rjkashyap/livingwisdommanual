@@ -19,12 +19,12 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: Section 1
     output: web, pdf
     folderitems:
 
-    - title: Get started
-      url: /index.html
+    - title: Student Orientation
+      url: /mydoc_about.html
       output: web, pdf
       type: homepage
 
