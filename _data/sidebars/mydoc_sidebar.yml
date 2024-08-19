@@ -54,7 +54,7 @@ entries:
       url: /1.5.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: Section 2 - Counselling Skills & Technique
     output: web, pdf
     folderitems:
 
