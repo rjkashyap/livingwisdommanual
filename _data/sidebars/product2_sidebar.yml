@@ -1,9 +1,9 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Product2
-  product: Product2
-  version: 1.0
+- title: sidebar
+  product: 
+  version: 
   folders:
 
   - title:
@@ -18,77 +18,52 @@ entries:
       url: /tocpage.html
       output: pdf
       type: frontmatter
+      
+      
+      
+      
+      
 
-  - title: Introduction
+
+
+
+
+
+  - title: Section 1 - Introduction
     output: web, pdf
     folderitems:
 
-    - title: Overview
-      url: /p2_landing_page.html
-      output: web
+    - title: Student Orientation
+      url: /1.1.html
+      output: web, pdf
+      type: homepage
 
-  - title: Simple Workflow
+    - title: What is LIVING WISDOM?
+      url: /1.2.html
+      output: web, pdf
+
+    - title: Student Safety
+      url: /1.3.html
+      output: web, pdf
+
+    - title: About the theme author
+      url: /mydoc_about.html
+      output: web, pdf
+
+    - title: Support
+      url: /mydoc_support.html
+      output: web, pdf
+
+  - title: Release Notes
     output: web, pdf
     folderitems:
 
-    - title: Sample 1
-      url: /p2_sample1.html
+    - title: 6.0 Release notes
+      url: /mydoc_release_notes_60.html
       output: web, pdf
 
-    - title: Sample 2
-      url: /p2_sample2.html
+    - title: 5.0 Release notes
+      url: /mydoc_release_notes_50.html
       output: web, pdf
 
-    - title: Sample 3
-      url: /p2_sample3.html
-      output: web, pdf
-
-    - title: Sample 4
-      url: /p2_sample4.html
-      output: web, pdf
-
-    - title: Sample 5
-      url: /p2_sample5.html
-      output: web, pdf
-
-  - title: Complex Workflow
-    output: web, pdf
-    folderitems:
-
-    - title: Sample 6
-      url: /p2_sample6.html
-      output: web, pdf
-
-    - title: Sample 7
-      url: /p2_sample7.html
-      output: web, pdf
-
-    - title: Sample 8
-      url: /p2_sample8.html
-      output: web, pdf
-
-    - title: Sample 9
-      url: /p2_sample9.html
-      output: web, pdf
-
-    - title: Sample 10
-      url: /p2_sample10.html
-      output: web, pdf
-
-    - title: Sample 11
-      url: /p2_sample11.html
-      output: web, pdf
-
-    - title: Sample 12
-      url: /p2_sample12.html
-      output: web, pdf
-
-    - title: Sample 13
-      url: /p2_sample13.html
-      output: web, pdf
-
-    - title: Sample 14
-      url: /p2_sample14.html
-      output: web, pdf
-
-# Copyright 2021 Google LLC
+  
