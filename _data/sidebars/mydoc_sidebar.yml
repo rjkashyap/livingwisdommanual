@@ -50,8 +50,8 @@ entries:
       url: /1.4.html
       output: web, pdf
 
-    - title: Support
-      url: /mydoc_support.html
+    - title: Beating the Dumb Lie
+      url: /1.5.html
       output: web, pdf
 
   - title: Release Notes
