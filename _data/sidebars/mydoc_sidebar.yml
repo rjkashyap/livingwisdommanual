@@ -34,7 +34,7 @@ entries:
     folderitems:
 
     - title: Student Orientation
-      url: /mydoc_shuffle.html
+      url: /1.1.html
       output: web, pdf
       type: homepage
 
