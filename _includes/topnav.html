@@ -15,7 +15,7 @@
                 <!-- toggle sidebar button -->
                 <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
                 <!-- entries without drop-downs appear here -->
-
+<!--end search
 {% assign topnav = site.data[page.topnav] %}
 {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
 
@@ -30,8 +30,7 @@
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
-                <!-- entries with drop-downs appear here -->
-                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+
                 {% for entry in topnav_dropdowns %}
                 {% for folder in entry.folders %}
                 <li class="dropdown">
@@ -53,9 +52,9 @@
                 {% if site.feedback_disable == null or site.feedback_disable == false %}
 			{% include feedback.html %}
 		{% endif %}
-                <!--comment out this block if you want to hide search-->
+               
                 <li>
-                    <!--start search-->
+                    
                     <div id="search-demo-container">
                         <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
                         <ul id="results-container"></ul>
@@ -72,8 +71,9 @@
                             fuzzy: true,
                     })
                     </script>
-                    <!--end search-->
+                   
                 </li>
+				 -->
             </ul>
         </div>
         </div>
