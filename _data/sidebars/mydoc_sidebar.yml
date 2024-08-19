@@ -46,8 +46,8 @@ entries:
       url: /1.3.html
       output: web, pdf
 
-    - title: About the theme author
-      url: /mydoc_about.html
+    - title: Memory Assistance
+      url: /1.4.html
       output: web, pdf
 
     - title: Support
