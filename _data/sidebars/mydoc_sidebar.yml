@@ -42,8 +42,8 @@ entries:
       url: /1.2.html
       output: web, pdf
 
-    - title: Supported features
-      url: /mydoc_supported_features.html
+    - title: Student Safety
+      url: /1.3.html
       output: web, pdf
 
     - title: About the theme author
